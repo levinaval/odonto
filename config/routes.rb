@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'pages/home'
+  get 'pages/sobre'
+  get 'pages/servicos'
+  get 'pages/contato'
   get 'home/index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
